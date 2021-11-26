@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Driver">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="350sp"
+            android:layout_height="50sp"
+            android:hint="Vehicle Number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="350sp"
+            android:layout_height="50sp"
+            android:hint="Date"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt3"
+            android:layout_width="350sp"
+            android:layout_height="50sp"
+            android:hint="Please Enter Your Name"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt4"
+            android:layout_width="350sp"
+            android:layout_height="50sp"
+            android:hint="Enter 10 Digit Receipt Number"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt5"
+            android:layout_width="350sp"
+            android:layout_height="50sp"
+            android:hint="Odometer Kilometer"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt6"
+            android:layout_width="350sp"
+            android:layout_height="50sp"
+            android:hint="Petrol In Liters"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt7"
+            android:layout_width="350sp"
+            android:layout_height="50sp"
+            android:hint="Amount"
+            android:text=""
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="25sp"
+            android:backgroundTint="@color/white"
+            android:onClick="submit"
+            android:text="Submit"
+            android:textColor="@color/blue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
